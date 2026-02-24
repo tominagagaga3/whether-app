@@ -2,7 +2,7 @@
 set -euo pipefail
 set -x
 
-FLUTTER_TAR="flutter_linux_3.24.5-stable.tar.xz"
+FLUTTER_TAR="flutter_linux_3.41.2-stable.tar.xz"
 
 curl -fsSL "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/${FLUTTER_TAR}" | tar -xJ
 
