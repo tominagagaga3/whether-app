@@ -9,7 +9,6 @@ curl -fsSL -o releases_linux.json \
 ARCHIVE_PATH=$(python3 - <<'PY'
 import json
 d=json.load(open("releases_linux.json"))
-base=d["base_url"]
 stable_hash=d["current_release"]["stable"]
 for r in d["releases"]:
     if r.get("hash")==stable_hash:
@@ -33,5 +32,8 @@ curl -fsSL "${BASE_URL}/${ARCHIVE_PATH}" | tar -xJ
 
 # 4) PATHを通してビルド
 export PATH="$PWD/flutter/bin:$PATH"
+git config --global --add safe.directory "$PWD/flutter"
+git config --global --add safe.directory "$PWD"
 flutter --version
+flutter pub get
 flutter build web --release
