@@ -1,17 +1,27 @@
-# my_web_portfolio
+# Whether App
 
-A new Flutter project.
+Flutterで初めて制作した練習用アプリです。  
+天気情報を取得し、シンプルなUIで表示するWebアプリとして実装しました。
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠 使用技術
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter
+- Dart
+- Flutter Web
+- Vercel（GitHub連携デプロイ）
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🌐 公開環境
+
+GitHubとVercelを連携し、Flutter Webとしてデプロイしています。
+
+---
+
+## 🎯 制作目的
+
+- Flutterの基本構造（Widget / 状態管理）の理解
+- API通信の実装練習
+- Flutter Webへのビルドと公開手順の習得
