@@ -1,7 +1,7 @@
 # Whether App
 
 🔗 ** URL **  
-https://news-app-green-three-31.vercel.app/
+https://whether-app-dusky.vercel.app/
 
 Flutterで初めて制作した練習用アプリです。  
 天気情報を取得し、シンプルなUIで表示するWebアプリとして実装しました。
